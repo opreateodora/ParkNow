@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "facebookScheme": "fb2471423723169634",
+    "facebookAppId": "2471423723169634",
+    "facebookDisplayName": "Parking",
+    "name": "ImageShare",
+    "slug": "ImageShare",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    
+    "android": {
+      "package": "com.Parking.Parking",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyCPGprQ3b1CTpBQUxtOckThjtLm3AYEQrQ" }   
+     },
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.Parking.Parking"
+    }
+  }
+}
